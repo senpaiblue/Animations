@@ -18,13 +18,13 @@ export default function WelcomeScreen() {
 
     setTimeout(() => {
       ring1padding.value = withSpring(ring1padding.value + hp(5), {
-        mass: 10, // Set the desired mass value
+        mass: 10, 
       });
     }, 200);
 
     setTimeout(() => {
       ring2padding.value = withSpring(ring2padding.value + hp(5.5), {
-        mass: 20, // Set the desired mass value
+        mass: 20, 
       });
     }, 500);
   }, []);
